@@ -5,3 +5,8 @@ else
     #PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '                                                                                                                                                    
     PS1='${debian_chroot:+($debian_chroot)}\u@\W\$ '
 fi
+
+#                                                                                                                                                                                                           
+# Alias settings                                                                                                                                                                                            
+#                                                                                                                                                                                                           
+alias emacsnw="TERM=screen-256color emacs -nw"

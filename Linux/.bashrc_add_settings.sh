@@ -10,3 +10,9 @@ fi
 # Alias settings
 #
 alias emacs="TERM=screen-256color emacs"
+
+# 
+# Other settings
+# 
+# Enable ctrl+s 
+stty stop undef

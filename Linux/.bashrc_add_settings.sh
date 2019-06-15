@@ -6,7 +6,7 @@ else
     PS1='${debian_chroot:+($debian_chroot)}\u@\W\$ '
 fi
 
-#                                                                                                                                                                                                           
-# Alias settings                                                                                                                                                                                            
-#                                                                                                                                                                                                           
-alias emacsnw="TERM=screen-256color emacs -nw"
+#
+# Alias settings
+#
+alias emacs="TERM=screen-256color emacs"

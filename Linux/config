@@ -1,0 +1,8 @@
+# SSH config
+
+Host varo-server
+  HostName 10.0.0.100
+  USER varo
+
+Host 172.1.*.*
+  ProxyCommand ssh -W %h:%p varo-server

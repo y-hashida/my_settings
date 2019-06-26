@@ -1,0 +1,13 @@
+# This file describes the network interfaces available on your system
+# For more information, see netplan(5).
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: yes
+      dhcp6: no
+    enp0s8:
+      dhcp4: no
+      dhcp6: no
+      addresses: [172.1.0.20/16]

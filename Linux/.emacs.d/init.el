@@ -59,6 +59,15 @@
 (setq-default tab-width 4)
 
 ;; ---------------------------------------------------------------------
+;;==========================================================
+;; ■ yaml-mode の設定 (yaml-mode.el)
+;;==========================================================
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yaml\\'" . yaml-mode))
+
+
 ;; ■ タブブラウザの設定
 ;; scratch buffer 以外をまとめてタブに表示する
 ;; グループ化せずに*scratch*以外のタブを表示

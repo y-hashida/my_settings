@@ -1,20 +1,28 @@
 [
     /* エディタのキーバインディング */
+    // 1. Alt + ; で複数行コメントアウトのトグル設定
     {
-        "key": "ctrl+alt+/",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+/",
-        "command": "editor.action.addCommentLine",
+        "key": "ctrl+oem_2",
+        "command": "-editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+t",
-        "command": "editor.action.removeCommentLine",
+        "key": "alt+oem_plus",
+        "command": "-increaseSearchEditorContextLines",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "alt+oem_plus",
+        "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "ctrl+oem_1",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+    // 2. 不要なショートカットの削除    
     {
         "key": "ctrl+j",
         "command": "-emacs.C-j",

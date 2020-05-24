@@ -6,6 +6,7 @@
     "editor.autoClosingBrackets": "never",
     "editor.minimap.enabled": false,
     "explorer.autoReveal": false,
+    "terminal.integrated.allowChords": false,
     "window.zoomLevel": 0,
 
     // PHP 関係

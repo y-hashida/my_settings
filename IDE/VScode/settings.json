@@ -11,4 +11,31 @@
 
     // PHP 関係
     "php.validate.executablePath": "/usr/bin/php",
+
+    // TODO highlight
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+        {
+            "text": "DEBUG",
+        },
+        {
+            "text": "REVIEW",
+        },
+        {
+            "text": "FIXME",
+            "backgroundColor": "magenta",
+            "color": "#ffffff",  // 16進数表記もできる ("white" と同じ.)
+        },
+        {
+            "text": "NOTE",
+            "backgroundColor": "yellow",
+            "color": "red",
+        },
+        {
+            "text": "TODO",
+            "backgroundColor": "yellow",
+            "color": "blue",
+        },
+    ],
 }

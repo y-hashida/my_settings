@@ -14,7 +14,6 @@
 
     // TODO highlight
     "todohighlight.isEnable": true,
-    "todohighlight.isCaseSensitive": true,
     "todohighlight.keywords": [
         {
             "text": "DEBUG",

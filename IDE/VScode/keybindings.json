@@ -171,4 +171,14 @@
         "command": "-editor.action.formatSelection",
         "when": "editorHasDocumentSelectionFormattingProvider && editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
     },
+
+    /* Keep open の設定 (プレビューモードの解除) */
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.keepEditor"
+    },
+    {
+        "key": "ctrl+k enter",
+        "command": "-workbench.action.keepEditor"
+    },
 ]

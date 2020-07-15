@@ -5,6 +5,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "editor.autoClosingBrackets": "never",
     "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
     "explorer.autoReveal": false,
     "terminal.integrated.allowChords": false,
     "window.zoomLevel": 0,

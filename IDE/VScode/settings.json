@@ -8,6 +8,7 @@
     "explorer.autoReveal": false,
     "terminal.integrated.allowChords": false,
     "window.zoomLevel": 0,
+    "files.eol": "\n",
 
     // PHP 関係
     "php.validate.executablePath": "/usr/bin/php",

@@ -10,6 +10,8 @@
     "terminal.integrated.allowChords": false,
     "window.zoomLevel": 0,
     "files.eol": "\n",
+    "git.confirmSync": false,
+    "editor.wordWrap": "on",
 
     // PHP 関係
     "php.validate.executablePath": "/usr/bin/php",

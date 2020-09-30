@@ -1,5 +1,5 @@
 {
-    // 基本設定    
+    // 基本設定
     "workbench.editor.tabSizing": "shrink",
     "workbench.editor.openPositioning": "last",
     "workbench.iconTheme": "material-icon-theme",

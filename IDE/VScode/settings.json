@@ -21,6 +21,9 @@
     "remote.SSH.remotePlatform": {
         "yh-desktop": "linux",
         "yorozu": "linux",
+        "ubuntu1804-infra-a": "linux",
+        "ubuntu1804-infra-b": "linux",
+        "ubuntu1804-infra-c": "linux",
     }
 
     // TODO highlight

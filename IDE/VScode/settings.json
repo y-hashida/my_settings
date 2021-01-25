@@ -16,6 +16,13 @@
     // PHP 関係
     "php.validate.executablePath": "/usr/bin/php",
 
+    // Remote-SSH 関係
+    "remote.SSH.path": "C:\\opt\\bin\\ssh.BAT",
+    "remote.SSH.remotePlatform": {
+        "yh-desktop": "linux",
+        "yorozu": "linux",
+    }
+
     // TODO highlight
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [

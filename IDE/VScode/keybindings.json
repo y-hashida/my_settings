@@ -7,12 +7,12 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+oem_plus",
+        "key": "alt+[Semicolon]",
         "command": "-increaseSearchEditorContextLines",
         "when": "inSearchEditor"
     },
     {
-        "key": "alt+oem_plus",
+        "key": "alt+[Semicolon]",
         "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
     },

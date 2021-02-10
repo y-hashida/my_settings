@@ -8,7 +8,6 @@
     "editor.renderWhitespace": "boundary",
     "explorer.autoReveal": false,
     "terminal.integrated.allowChords": false,
-    "window.zoomLevel": 0,
     "files.eol": "\n",
     "git.confirmSync": false,
     "editor.wordWrap": "on",
@@ -41,4 +40,7 @@
             "color": "blue",
         },
     ],
+    "[proto3]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
 }
